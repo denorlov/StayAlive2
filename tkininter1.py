@@ -6,7 +6,7 @@ def show_key(event):
 
 
 master = tkinter.Tk()
-label = tkinter.Label(master, text="Hello world!")
+label = tkinter.Label(master, text="Здравствуй мир!")
 label.pack()
 master.bind("<KeyPress>", show_key)
 master.mainloop()
